@@ -38,4 +38,4 @@ Componentes de apoyo para la demostración:
 - **Props tipadas** con `interface` y valores por defecto; `ActionButton` extiende `ButtonHTMLAttributes<HTMLButtonElement>`.
 - **Accesibilidad**: `role="alert"`/`status`, `aria-live`, `aria-current="step"`, `aria-label` en botones de solo icono, `alt` descriptivo y fallback de iniciales en avatares.
 - **Mobile-first**: probado sin desbordamiento horizontal en 360 px; el modal se muestra como hoja inferior en móvil y centrado en escritorio, y el rastreador de hitos pasa a vertical en móvil cuando tiene más de 4 pasos.
-- **Navegación** interna con `next/link`; imágenes con `next/image` (dominio `i.pravatar.cc` configurado en `next.config.ts`).
+- **Navegación** interna con `next/link`; imágenes con `next/image` (dominio `randomuser.me` configurado en `next.config.ts`).

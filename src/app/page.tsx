@@ -16,7 +16,7 @@ export default function Home() {
     <>
       <AcademicAppNavbar
         brandName="Portal Académico Icesi"
-        user={{ name: "Juan", avatarUrl: "https://i.pravatar.cc/96?img=12", notificationsCount: 4, currentTerm: "2026-2" }}
+        user={{ name: "Juan", avatarUrl: "https://randomuser.me/api/portraits/men/32.jpg", notificationsCount: 4, currentTerm: "2026-2" }}
       />
       <main className="mx-auto max-w-6xl space-y-6 px-4 py-8 sm:py-10">
         <header>
@@ -70,13 +70,25 @@ export default function Home() {
                 name="Juan"
                 role="Estudiante"
                 program="Ingeniería de Sistemas"
-                avatarUrl="https://i.pravatar.cc/160?img=12"
+                avatarUrl="https://randomuser.me/api/portraits/men/32.jpg"
                 isOnline
                 locationText="Edificio L · Sala 203"
                 size="lg"
               />
-              <UserAvatar name="Laura Méndez" role="Docente" program="Diseño de Medios" isOnline={false} />
-              <UserAvatar name="Sofía Ramírez" role="Monitor" size="sm" isOnline />
+              <UserAvatar
+                name="Laura Méndez"
+                role="Docente"
+                program="Diseño de Medios"
+                avatarUrl="https://randomuser.me/api/portraits/women/44.jpg"
+                isOnline={false}
+              />
+              <UserAvatar
+                name="Sofía Ramírez"
+                role="Monitor"
+                avatarUrl="https://randomuser.me/api/portraits/women/68.jpg"
+                size="sm"
+                isOnline
+              />
             </div>
           </ShowcaseSection>
 
