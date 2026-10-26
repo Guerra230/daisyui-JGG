@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: false;
+}
+
+@plugin "daisyui/theme" {
+  name: "icesi";
+  default: true;
+  prefersdark: false;
+  color-scheme: light;
+  --color-base-100: #ffffff;
+  --color-base-200: #f5f6fa;
+  --color-base-300: #cecfd4;
+  --color-base-content: #1e1f2e;
+  --color-primary: #5454e9;
+  --color-primary-content: #ffffff;
+  --color-secondary: #865cf0;
+  --color-secondary-content: #ffffff;
+  --color-accent: #e4eb60;
+  --color-accent-content: #2d300a;
+  --color-neutral: #2b2c3f;
+  --color-neutral-content: #ffffff;
+  --color-info: #5454e9;
+  --color-info-content: #ffffff;
+  --color-success: #4cb979;
+  --color-success-content: #0d3520;
+  --color-warning: #e9683b;
+  --color-warning-content: #3a1406;
+  --color-error: #d63f4f;
+  --color-error-content: #ffffff;
+  --radius-selector: 1rem;
+  --radius-field: 0.5rem;
+  --radius-box: 1rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --depth: 1;
+  --noise: 0;
+}
+
+@theme {
+  --color-icesi-blue: #5454e9;
+  --color-icesi-purple: #865cf0;
+  --color-icesi-green: #4cb979;
+  --color-icesi-orange: #e9683b;
+  --color-icesi-yellow: #e4eb60;
+  --color-icesi-gray: #cecfd4;
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+}
