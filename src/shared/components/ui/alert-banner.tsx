@@ -37,7 +37,7 @@ export default function AlertBanner({
     <div
       role={type === "error" || type === "warning" ? "alert" : "status"}
       aria-live="polite"
-      className={`alert alert-soft ${config.alert} alert-vertical items-start sm:alert-horizontal ${className}`}
+      className={`alert alert-soft ${config.alert} alert-vertical items-start justify-items-start text-left sm:alert-horizontal ${className}`}
     >
       {config.icon}
       <div className="text-base-content">
